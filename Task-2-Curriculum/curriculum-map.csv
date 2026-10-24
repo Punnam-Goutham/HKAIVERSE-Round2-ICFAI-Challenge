@@ -1,0 +1,42 @@
+semester,course_code,course_title,credits,source_status,classification,proposed_change,verification_note
+1,EG101,English Language Skills,3,Public general CSE page accessed 2026-10-20,KEEP,Communication foundation,Verify against admission-batch curriculum
+1,ES101,Engineering Graphics,3,Public general CSE page accessed 2026-10-20,REVIEW,Assess actual relevance and learning outcomes before any change,Verify course code/credit for batch
+1,BS101,Chemistry,4,Public general CSE page accessed 2026-10-20,REVIEW,Do not reduce without outcome and regulation review,Verify course code/credit for batch
+1,HS101,Understanding India,0,Public general CSE page accessed 2026-10-20,KEEP,Preserve required programme component,Confirm zero-credit requirement
+1,BS102,Physics,4,Public general CSE page accessed 2026-10-20,REVIEW,Preserve required foundational outcomes,Verify course code/credit for batch
+1,BS103,Linear Algebra and Ordinary Differential Equations,3,Public general CSE page accessed 2026-10-20,KEEP,Mathematical foundation for computing,Verify course code/credit for batch
+1,ES105,Computer Programming,4,Public general CSE page accessed 2026-10-20,KEEP,Preserve programming foundation and practical work,Verify course code/credit for batch
+2,EG102,Professional Communication,3,Public general CSE page accessed 2026-10-20,KEEP,Communication foundation,Verify course code/credit for batch
+2,ES102,Digital Fabrication,3,Public general CSE page accessed 2026-10-20,REVIEW,Assess programme outcomes before recommending change,Verify course code/credit for batch
+2,ES103,Environmental Sciences,2,Public general CSE page accessed 2026-10-20,REVIEW,Preserve mandatory outcomes,Verify course code/credit for batch
+2,ES104,Basic Electronics,4,Public general CSE page accessed 2026-10-20,REVIEW,Assess relevance and practical outcomes,Verify course code/credit for batch
+2,BS104,Higher Calculus,3,Public general CSE page accessed 2026-10-20,KEEP,Mathematical foundation,Verify course code/credit for batch
+2,ES106,Data Structures,4,Public general CSE page accessed 2026-10-20,KEEP,Preserve implementation and complexity analysis,Verify course code/credit for batch
+2,ES107,Introduction to DS and AI,3,Public general CSE page accessed 2026-10-20,UPDATE,Check hands-on data/AI evaluation depth,Verify course code/credit for batch
+3,MG201,Engineering Economics and Management,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve cost and management foundation,Verify course code/credit for batch
+3,BS105,Probability & Statistics,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve quantitative foundation,Verify course code/credit for batch
+3,ES201,Object Oriented Programming Concepts,4,Public general CSE page accessed 2026-10-20,KEEP,Preserve OOP implementation,Verify course code/credit for batch
+3,CR201,Power Skills I,1,Public general CSE page accessed 2026-10-20,UPDATE,Use evidence-based communication/presentation tasks,Verify course code/credit for batch
+3,CS201,Introduction to IoT,3,Public general CSE page accessed 2026-10-20,REVIEW,Assess actual role/programme outcomes before changes,Verify course code/credit for batch
+3,CS204,Design and Analysis of Algorithms,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve algorithmic reasoning,Verify course code/credit for batch
+3,CS205,Operating Systems,4,Public general CSE page accessed 2026-10-20,KEEP,Preserve OS and troubleshooting foundations,Verify course code/credit for batch
+3,CS210,Theory of Computation,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve theoretical foundations,Verify course code/credit for batch
+4,HSXXX,Digital Humanities Elective,3,Public general CSE page accessed 2026-10-20,REVIEW,Record the actual selected option only,Elective alternatives must not be summed
+4,CR202,Power Skills II,1,Public general CSE page accessed 2026-10-20,UPDATE,Include stakeholder communication and concise reporting,Verify course code/credit for batch
+4,ES202,Industry Coding Practices,4,Public general CSE page accessed 2026-10-20,UPDATE,"Check version control, code review and CI practice",Verify course code/credit for batch
+4,CS202,Database Management System,4,Public general CSE page accessed 2026-10-20,UPDATE,Assess SQL transactions indexing and safe queries,Verify course code/credit for batch
+4,CS203,Artificial Intelligence,3,Public general CSE page accessed 2026-10-20,UPDATE,Assess evaluation and limits in addition to theory,Verify course code/credit for batch
+4,CS206,Computer Organization and Architecture,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve computing foundations,Verify course code/credit for batch
+4,CS207,Discrete Mathematics,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve logic and discrete foundations,Verify course code/credit for batch
+4,CS208,Web Enabled Technologies,4,Public general CSE page accessed 2026-10-20,UPDATE,Assess API design validation security and tests,Verify course code/credit for batch
+5,CS301,Principles of Cryptography,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve security foundations,Verify course code/credit for batch
+5,CS302,Computer Networks,4,Public general CSE page accessed 2026-10-20,KEEP,Preserve network fundamentals and troubleshooting,Verify course code/credit for batch
+5,CS303,Programming Language and Compiler Construction,3,Public general CSE page accessed 2026-10-20,KEEP,Preserve language/toolchain foundations,Verify course code/credit for batch
+5,CS304,Machine Learning,4,Public general CSE page accessed 2026-10-20,UPDATE,Add reproducible evaluation and data-leakage checks if missing,Verify course code/credit for batch
+5,CS305,Software Engineering,3,Public general CSE page accessed 2026-10-20,UPDATE,Assess requirements issue tracking reviews and releases,Verify course code/credit for batch
+6,CS307,Computer Vision,3,Public general CSE page accessed 2026-10-20,REVIEW,Confirm course applicability and outcomes,Verify course code/credit for batch
+6,CS308,Big Data systems,3,Public general CSE page accessed 2026-10-20,REVIEW,Confirm course applicability and outcomes,Verify course code/credit for batch
+6,CS309,Cloud Computing,4,Public general CSE page accessed 2026-10-20,UPDATE,Assess deployment monitoring access control and cost,Verify course code/credit for batch
+6,CS311,Software Testing,3,Public general CSE page accessed 2026-10-20,UPDATE,Assess unit integration negative and regression testing,Verify course code/credit for batch
+7,IP401,Internship Program / Research,15,Public page presentation needs interpretation,REVIEW,Confirm whether internship and thesis rows are alternatives,Do not add ambiguous totals without official regulations
+8,TS401,Thesis & Seminar,15,Public page presentation needs interpretation,REVIEW,Confirm actual semester VII/VIII requirements,Do not assume page's displayed layout is definitive

@@ -1,0 +1,11 @@
+semester,candidate_reported_known_credits,proposed_added_degree_credits,proposed_removed_degree_credits,proposed_known_credits_after,unique_existing_credits_with_assessment_update,notes
+1,21,0,0,21,0,Partial candidate-reported baseline; unknown credits omitted; foundations retained
+2,23,0,0,23,0,Partial candidate-reported baseline; DS/AI practice updated within existing course
+3,23,0,0,23,6,Partial candidate-reported baseline; MA202 Discrete Mathematics (3) + EC201 Introduction to IoT (3) included; foundations retained
+4,24,0,0,24,8,CS206 DBMS (4) + CS205 Web-Enabled Technologies (4); assessment changes only
+5,21,0,0,21,10,CS302 Operating Systems (4) + CS301 Cryptography (3) + CS304 Software Engineering (3); assessment changes only
+6,18,0,0,18,14,DS307 Big Data Systems (3) + CS307 Cloud Computing (4) + CS306 Computer Networks (4) + SP301 Special Project (3); assessment changes only
+ST-II,3,0,0,3,0,Internship-I; retained
+7,UNKNOWN,0,0,UNKNOWN,UNKNOWN,No candidate-supplied official semester VII data; do not infer credits
+8,UNKNOWN,0,0,UNKNOWN,UNKNOWN,No candidate-supplied official semester VIII data; do not infer credits
+KNOWN SUBTOTAL,133,0,0,133,38,Known subtotal is not independently verified as official programme total; 38 unique existing credits have assessment updates; no net degree credits added/removed

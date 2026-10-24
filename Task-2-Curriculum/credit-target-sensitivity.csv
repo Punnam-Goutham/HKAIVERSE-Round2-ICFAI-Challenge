@@ -1,0 +1,6 @@
+programme_total_scenario,affected_existing_credits,affected_share_percent,meets_20_to_25_percent,minimum_affected_credits_for_20_percent,status
+168 (candidate-reported total; not independently verified),38,22.62,"YES, if total is correct",34,Candidate-reported total; confirm against official regulations
+160 (hypothetical comparison),38,23.75,YES,32,Hypothetical only
+170 (hypothetical comparison),38,22.35,YES,34,Hypothetical only
+180 (hypothetical comparison),38,21.11,YES,36,Hypothetical only
+200 (hypothetical comparison),38,19.00,NO - below 20%,40,Hypothetical only

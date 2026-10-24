@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HKAIVERSE Round 2 — Curriculum Credit Planner</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#172033;background:#f6f8fb}
+body{max-width:1050px;margin:0 auto;padding:24px}
+h1{font-size:clamp(1.7rem,4vw,2.5rem);margin-bottom:.4rem}
+.lead{color:#4b5565;line-height:1.55}
+.card{background:white;border:1px solid #dbe2ec;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 3px 12px #1b2b4410}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+label{display:block;font-weight:650;margin-bottom:7px}
+input,select{width:100%;box-sizing:border-box;padding:11px;border:1px solid #b8c4d4;border-radius:9px;font:inherit}
+small,.muted{color:#5b6678}
+button{border:0;border-radius:10px;padding:11px 15px;background:#173f78;color:white;font-weight:700;cursor:pointer}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{text-align:left;padding:10px;border-bottom:1px solid #e3e8ef}
+th{background:#f0f4f9}
+.stat{font-size:1.8rem;font-weight:800;margin-top:4px}
+.warn{background:#fff7e6;border:1px solid #f0d394;border-radius:10px;padding:12px}
+.pass{color:#176a42}.fail{color:#9b2c2c}
+footer{font-size:.88rem;color:#667085;margin:20px 0}
+@media(max-width:600px){body{padding:12px}.card{padding:14px}table{font-size:.9rem}}
+</style>
+</head>
+<body>
+<h1>Curriculum Credit Planner</h1>
+<p class="lead">Interactive planning aid for the HKAIVERSE Round 2 curriculum assignment. The current scenario uses 38 unique existing credits with assessment updates and the candidate-reported 168-credit programme total. The total is not independently verified; confirm it against official regulations before treating the percentage as final.</p>
+<div class="warn"><strong>Important:</strong> The public ICFAITech website displays multiple B.Tech programmes and specialisations. This calculator does not verify your syllabus. The 168-credit denominator is candidate-reported, not independently verified as the official ICFAI total. The 38 affected credits are proposed assessment updates within existing courses, not new or deleted degree credits.</div>
+<section class="card">
+<h2>1. Enter your verified baseline</h2>
+<div class="grid">
+<div><label for="total">Total required programme credits</label><input id="total" type="number" min="1" value="168"></div>
+<div><label for="affected">Unique credits affected by changes</label><input id="affected" type="number" min="0" value="38"></div>
+<div><label for="add">Credits added</label><input id="add" type="number" min="0" value="0"></div>
+<div><label for="remove">Credits removed/reallocated</label><input id="remove" type="number" min="0" value="0"></div>
+</div>
+<p><small>“Affected credits” counts each unique credit only once. If a course is updated and used in a capstone, do not count it twice. Addition and removal/reallocation should balance unless an approved regulation change allows otherwise.</small></p>
+<button onclick="calculate()">Calculate</button>
+<div class="grid">
+<div class="card"><div class="muted">Affected share</div><div class="stat" id="share">22.5%</div><div id="status" class="pass">Within target range</div></div>
+<div class="card"><div class="muted">Target credits (20–25%)</div><div class="stat" id="target">34–42</div><div class="muted">Based on entered total</div></div>
+<div class="card"><div class="muted">Net credit change</div><div class="stat" id="net">0</div><div id="balance">Addition and reallocation balance</div></div>
+</div>
+</section>
+<section class="card">
+<h2>2. Proposed course changes (illustrative framework)</h2>
+<table>
+<thead><tr><th>Area</th><th>Direction</th><th>What to assess</th></tr></thead>
+<tbody>
+<tr><td>Data Structures / Algorithms</td><td>KEEP</td><td>Implementation, complexity, test cases</td></tr>
+<tr><td>Database Management</td><td>UPDATE if gap confirmed</td><td>SQL, transactions, indexing, safe queries</td></tr>
+<tr><td>Web Technologies</td><td>UPDATE if gap confirmed</td><td>APIs, validation, access control, integration tests</td></tr>
+<tr><td>Cloud Computing</td><td>UPDATE if gap confirmed</td><td>Deployment, monitoring, least privilege, cost</td></tr>
+<tr><td>Software Testing</td><td>UPDATE if gap confirmed</td><td>Unit, integration, negative and regression tests</td></tr>
+<tr><td>Workflow automation lab</td><td>ADD / credit-neutral alternative</td><td>Approval boundary, failure recovery, measured value</td></tr>
+</tbody>
+</table>
+<p class="muted">This is a planning aid, not an official curriculum revision. Final classifications need course outcomes, assessments, and batch-specific regulations.</p>
+</section>
+<section class="card">
+<h2>3. Semester balance worksheet</h2>
+<p>Fill in the official and proposed totals after confirming your exact curriculum. This simple table is a reminder to check that the total programme credits remain balanced.</p>
+<table>
+<thead><tr><th>Semester</th><th>Verified current credits</th><th>Proposed credits</th><th>Difference</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+<button onclick="checkSemesters()">Check entered rows</button>
+<p id="semResult" class="muted">Semester values are blank until verified.</p>
+</section>
+<footer>Prepared as a candidate planning aid. Do not submit example values as measured facts. Verify the official syllabus, regulations, electives, and all calculations.</footer>
+<script>
+function calculate(){
+ const total=Number(document.getElementById('total').value);
+ const affected=Number(document.getElementById('affected').value);
+ const add=Number(document.getElementById('add').value);
+ const remove=Number(document.getElementById('remove').value);
+ if(total<=0||affected<0||add<0||remove<0){alert('Enter valid non-negative values and a positive total.');return;}
+ const p=affected/total*100;
+ document.getElementById('share').textContent=p.toFixed(2)+'%';
+ document.getElementById('target').textContent=(total*.2).toFixed(1)+'–'+(total*.25).toFixed(1);
+ document.getElementById('status').textContent=(p>=20&&p<=25)?'Within target range':'Outside target range — revise proposal';
+ document.getElementById('status').className=(p>=20&&p<=25)?'pass':'fail';
+ document.getElementById('net').textContent=(add-remove).toFixed(1);
+ document.getElementById('balance').textContent=add===remove?'Addition and reallocation balance':'Credit difference remains; explain or rebalance';
+ document.getElementById('balance').className=add===remove?'pass':'fail';
+}
+const tbody=document.getElementById('rows');
+for(let i=1;i<=8;i++){
+ const tr=document.createElement('tr');
+ tr.innerHTML='<td>Semester '+i+'</td><td><input aria-label="Semester '+i+' current credits" type="number" min="0" class="current"></td><td><input aria-label="Semester '+i+' proposed credits" type="number" min="0" class="proposed"></td><td class="difference">—</td>';
+ tbody.appendChild(tr);
+}
+function checkSemesters(){
+ let cur=0,pro=0,valid=true;
+ [...tbody.querySelectorAll('tr')].forEach(tr=>{
+  const a=tr.querySelector('.current').value,b=tr.querySelector('.proposed').value,cell=tr.querySelector('.difference');
+  if(a===''||b===''){cell.textContent='Enter both';valid=false;return;}
+  const d=Number(b)-Number(a);cur+=Number(a);pro+=Number(b);cell.textContent=(d>0?'+':'')+d;
+ });
+ const out=document.getElementById('semResult');
+ if(valid){out.textContent='Verified input totals: current '+cur+' credits; proposed '+pro+' credits; difference '+(pro-cur)+'. Check these against the official programme total.';out.className=cur===pro?'pass':'fail';}
+ else{out.textContent='Enter both values for every semester after checking the official syllabus.';out.className='muted';}
+}
+calculate();
+</script>
+</body>
+</html>

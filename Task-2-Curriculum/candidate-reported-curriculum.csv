@@ -1,0 +1,52 @@
+semester_reported,course_code,course_title,credits_reported,action,reason,evidence_status
+1,EC101,Basic Electronics,4,KEEP,Electronics fundamentals,Candidate-provided course list; official regulation not independently checked
+1,CHY101,Chemistry,4,KEEP,Foundational science,Candidate-provided course list; official regulation not independently checked
+1,CS101,Computer Programming,4,KEEP,Programming foundation,Candidate-provided course list; official regulation not independently checked
+1,MT101,Digital Fabrication,3,KEEP,Hands-on engineering,Candidate-provided course list; official regulation not independently checked
+1,EG101,English Language Skills,3,KEEP,Communication,Candidate-provided course list; official regulation not independently checked
+1,HS101,Essence of Indian Traditional Knowledge,0,REDUCE,Review mandatory zero-credit workload; preserve required outcomes,Candidate-provided course list; official regulation not independently checked
+1,MA101,Linear Algebra and Ordinary Differential Equations,3,KEEP,Mathematics foundation,Candidate-provided course list; official regulation not independently checked
+2,CS102,Data Structures,4,KEEP,Critical interview and engineering skill,Candidate-provided course list; official regulation not independently checked
+2,MT102,Engineering Graphics,3,KEEP,Engineering foundation,Candidate-provided course list; official regulation not independently checked
+2,CH102,Environmental Sciences,2,REDUCE,Streamline overlapping content without violating mandated outcomes,Candidate-provided course list; official regulation not independently checked
+2,MA102,Higher Calculus,3,KEEP,Mathematics foundation,Candidate-provided course list; official regulation not independently checked
+2,DS101,Introduction to AI and DS,3,UPDATE,Integrate hands-on data literacy,Candidate-provided course list; official regulation not independently checked
+2,PH101,Physics,5,KEEP,Science foundation,Candidate-provided course list; official regulation not independently checked
+2,EG102,Professional Communication,3,KEEP,Communication,Candidate-provided course list; official regulation not independently checked
+3,CS203,Design and Analysis of Algorithms,3,KEEP,Algorithmic foundation,Candidate-provided course list; official regulation not independently checked
+3,MA202,Discrete Mathematics,3,KEEP,Computing mathematics,Candidate-provided course list; official regulation not independently checked
+3,MG201,Engineering Economics and Management,3,KEEP,Decision making,Candidate-provided course list; official regulation not independently checked
+3,MA201,Integral Transforms and Probability & Statistics,3,ALREADY REDUCED FOR JUNIORS — VERIFY,User reports prior reduction for junior batches; not a new reduction proposal,Candidate-provided course list; official regulation not independently checked
+3,EC201,Introduction to IoT,3,UPDATE,Build and secure connected systems,Candidate-provided course list; official regulation not independently checked
+3,CS201,Object Oriented Programming Concepts,4,KEEP,Software design,Candidate-provided course list; official regulation not independently checked
+3,CR201,Power Skills-I,1,KEEP,Employability skills,Candidate-provided course list; official regulation not independently checked
+3,CS202,Theory of Computation,3,KEEP,CS theory,Candidate-provided course list; official regulation not independently checked
+4,CS204,Computer Organization and Architecture,3,KEEP,Systems foundation,Candidate-provided course list; official regulation not independently checked
+4,DS203,Data Science,3,KEEP,Preserve subject,Candidate-provided course list; official regulation not independently checked
+4,CS206,Database Management Systems,4,UPDATE,"Transactions, indexing, SQL, data security",Candidate-provided course list; official regulation not independently checked
+4,HS201,Dynamics of Social Change,3,REDUCE,Consolidate repetitive nontechnical content while retaining outcomes,Candidate-provided course list; official regulation not independently checked
+4,EC102,Fundamentals of Signal Processing,3,ALREADY REDUCED FOR JUNIORS — VERIFY,User reports prior reduction for junior batches,Candidate-provided course list; official regulation not independently checked
+4,DS202,Industry Coding Practice (Python/R),3,KEEP,Practical coding,Candidate-provided course list; official regulation not independently checked
+4,CR202,Power Skills-II,1,KEEP,Employability skills,Candidate-provided course list; official regulation not independently checked
+4,CS205,Web-Enabled Technologies,4,UPDATE,Secure APIs and integration tests,Candidate-provided course list; official regulation not independently checked
+ST-II,IP201,Internship-I,3,KEEP,Real-world experience,Candidate-provided course list; official regulation not independently checked
+5,DS303,Blockchain Technology,3,KEEP,Preserve subject,Candidate-provided course list; official regulation not independently checked
+5,HS301,Constitution of India,0,REDUCE,Review zero-credit delivery workload; preserve mandatory content,Candidate-provided course list; official regulation not independently checked
+5,DS304,Machine Learning,4,KEEP,Preserve subject and hands-on learning,Candidate-provided course list; official regulation not independently checked
+5,CS302,Operating Systems,4,UPDATE,Systems troubleshooting and concurrency lab,Candidate-provided course list; official regulation not independently checked
+5,CR301,Power Skills-III,1,KEEP,Employability skills,Candidate-provided course list; official regulation not independently checked
+5,CS301,Principle of Cryptography,3,UPDATE,Applied secure software development,Candidate-provided course list; official regulation not independently checked
+5,CS303,Programming Language and Compiler Construction,3,KEEP,Core systems theory,Candidate-provided course list; official regulation not independently checked
+5,CS304,Software Engineering,3,UPDATE,"Code review, testing, CI/CD",Candidate-provided course list; official regulation not independently checked
+6,DS307,Big Data Systems,3,UPDATE,Reliable data pipelines and monitoring,Candidate-provided course list; official regulation not independently checked
+6,CS307,Cloud Computing,4,UPDATE,"Deploy, monitor, control access and cost",Candidate-provided course list; official regulation not independently checked
+6,CS306,Computer Networks,4,UPDATE,"Practical DNS, TLS and cloud network troubleshooting",Candidate-provided course list; official regulation not independently checked
+6,CS305,Computer Vision,3,KEEP,Preserve applied AI foundations,Candidate-provided course list; official regulation not independently checked
+6,CR302,Power Skills-IV,1,KEEP,Employability skills,Candidate-provided course list; official regulation not independently checked
+6,SP301,Special Project,3,UPDATE,Add demonstrable integrated capstone,Candidate-provided course list; official regulation not independently checked
+6,DS201,Artificial Intelligence,UNKNOWN,KEEP,Credit/semester placement to confirm,Candidate-provided course list; official regulation not independently checked
+UNKNOWN,UNKNOWN,Ethical Hacking,UNKNOWN,KEEP / UPDATE after syllabus review,Additional subject reported by candidate,Semester and credits not supplied
+UNKNOWN,UNKNOWN,Deep Learning,UNKNOWN,KEEP / UPDATE after syllabus review,Additional subject reported by candidate,Semester and credits not supplied
+UNKNOWN,UNKNOWN,Natural Language Processing,UNKNOWN,KEEP / UPDATE after syllabus review,Additional subject reported by candidate,Semester and credits not supplied
+UNKNOWN,UNKNOWN,Introduction to Entrepreneurship,UNKNOWN,KEEP / UPDATE after syllabus review,Additional subject reported by candidate,Semester and credits not supplied
+UNKNOWN,UNKNOWN,Human Computer Interaction,UNKNOWN,KEEP / UPDATE after syllabus review,Additional subject reported by candidate,Semester and credits not supplied

@@ -1,0 +1,6 @@
+test_id,case_type,synthetic_input,expected_status,expected_control,recovery_or_owner,observed_result
+T1,Normal,"Synthetic request letter with required fields",Awaiting Principal signature then Signed / ready for verification,Create reference and timestamps; only authorised role can update signed status,Principal signs; Student Department verifies and issues document,NOT RUN
+T2,Missing information,Required detail missing from letter,Needs correction,Do not route incomplete request if required fields are mandatory,Student corrects letter with staff guidance,NOT RUN
+T3,Duplicate,Same synthetic request entered twice,Possible duplicate flagged,Do not silently delete either record; human resolves match,Student Department process owner,NOT RUN
+T4,Unauthorized,Unauthorised user attempts to mark request signed or verified,Access denied / security review,Role-based access; log attempt; no document issued from unauthorised update,Authorised office role reviews,NOT RUN
+T5,Failed step,Tracker or notification fails while signature pending,Manual follow-up required,Preserve request and record failure,Process owner uses approved paper process and reconciles status,NOT RUN
