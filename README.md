@@ -4,7 +4,7 @@
 **Role applied for:** Marketing & Campus Lead (D7: Growth & Go-to-Market)  
 **Programme context reported by candidate:** B.Tech CSE, ICFAI University / ICFAITech, Hyderabad; expected graduation 2027  
 **Submission deadline:** 24 October 2026, 11:59 PM IST  
-**Status:** Prepared desk-study package; evidence limitations disclosed, GitHub publication pending
+**Status:** Both Round 2 tasks and supporting files are published in this public GitHub repository. The final submission release is available under Releases.
 
 > **Scope and evidence standard:** This is a completed desk-based proposal using the candidate’s account of a real college workflow and candidate-provided course list. It is not a claim of independent staff interviews, measured wait times, verified official batch regulations, deployed software or faculty endorsement. Synthetic tests and ROI estimates are labelled. GitHub commit/release links can only be produced after the repository is published.
 
